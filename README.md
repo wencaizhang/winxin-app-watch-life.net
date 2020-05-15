@@ -1,3 +1,5 @@
+**基于“微慕小程序开源版”修改**
+
 # 微慕小程序开源版-WordPress版微信小程序
 
 ![微慕wordpress微信小程序](https://www.watch-life.net/images/minapper-weixin-wp-700.jpg)
