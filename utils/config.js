@@ -16,12 +16,12 @@
 var DOMAIN = "webjam.cn";
 var WEBSITENAME="前端果酱"; //网站名称
 var PAGECOUNT='10'; //每页文章数目
-var ZANIMAGEURL = 'https://www.watch-life.net/images/2017/07/zsm400.jpg';//微信鼓励的图片链接，用于个人小程序的赞赏
+var ZANIMAGEURL = 'https://webjam.cn/wp-content/uploads/2020/05/WeixinPay.png';//微信鼓励的图片链接，用于个人小程序的赞赏
 var LOGO = "../../images/logo-icon.png"; // 网站的logo图片
 //设置downloadFile合法域名,不带https ,在中括号([])里增加域名，格式：{id=**,domain:'www.**.com'}，用英文逗号分隔。
 //此处设置的域名和小程序与小程序后台设置的downloadFile合法域名要一致。
 var DOWNLOADFILEDOMAIN = [
-    { id: 1, domain: 'www.watch-life.net'}
+  { id: 1, domain: 'webjam.cn'}
 
 ];
  //首页图标导航
@@ -38,7 +38,7 @@ var INDEXNAV = [
   { id: '5', name: '排行', image: '../../images/uploads/rankings.jpg', url: '../hot/hot', redirecttype: 'apppage', appid: '', extraData: '' },
   { id: '6', name: '搜索', image: '../../images/uploads/search.jpg', url: '../search/search', redirecttype: 'apppage', appid: '', extraData: '' },
   { id: '7', name: '小程序', image: '../../images/uploads/miniprogram.png', url: '../list/list?categoryID=1059', redirecttype: 'apppage', appid: '', extraData: '' },
-  // { id: '8', name: '官网', image: '../../images/uploads/watch-life.png', url: 'https://webjam.cn', redirecttype: 'webpage', appid: '', extraData: '' },
+  { id: '8', name: '官网', image: '../../images/logo700.png', url: 'https://webjam.cn', redirecttype: 'webpage', appid: '', extraData: '' },
   { id: '9', name: '言论', image: '../../images/uploads/comment.png', url: '../comments/comments', redirecttype: 'apppage', appid: '', extraData: '' },
   { id: '10', name: '关于', image: '../../images/uploads/about.jpg', url: '../about/about', redirecttype: 'apppage', appid: '', extraData: '' }
   
